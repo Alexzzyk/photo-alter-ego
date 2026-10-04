@@ -1,0 +1,79 @@
+[Generation Priorities / Normalized Size]
+{size_control}
+Priority: protect the photograph and real person, follow the character box, preserve identity anchors, maintain flat drawing grammar, then resolve pose and local contact. This full template is the design archive; use the concise form for ordinary image-tool execution.
+
+[Original Photo Preservation]
+Edit the supplied original photograph. Preserve the original photograph almost entirely unchanged: framing, camera perspective, exposure, lighting, texture, noise, background architecture, furniture, existing objects and text. Change only the areas needed to add one illustrated character, necessary local occlusion and an optional subtle contact shadow. Do not remove existing objects or add decorative graphics. Original scene: {photo}.
+
+[Real Person Preservation]
+Do not redraw or regenerate the original person. Preserve facial features, hair, visible skin tone, age appearance, body shape, pose, hands, clothing, accessories and all photographic details. Protected subject: {person}.
+
+[Cartoon Alter Ego Concept]
+Add one illustrated alter-ego character based on the real person's styling. The character should feel like a playful cartoon version of the same person rather than a separate random character. Do not copy a specific reference character or existing cartoon IP.
+
+[Character Identity Mapping]
+The illustrated character should clearly inherit the person's hairstyle, outfit colors, accessories and general attitude while simplifying them into a charming hand-drawn 2D character. Level 1 must keep: {level1}. Level 2 keep if useful: {level2}. Level 3 omit: {level3}. Prioritize the distinctive styling combination, then silhouette, then pose and attitude association, over precise facial likeness. Unknown or occluded details: {unknowns}. Do not invent invisible features.
+
+[Hair]
+{hair}
+
+[Outfit Mapping]
+{outfit}
+Translate each garment into a major silhouette, dominant flat color and one to three high-recognition details. Remove tiny folds, fabric microtexture, sewing lines, reflections and nonessential logos.
+
+[Accessories]
+{accessories}
+
+[Pose]
+Relationship mode: {pose_mode}. {pose}
+Keep the real person's existing pose unchanged. Preserve action intent rather than copying every joint angle. Do not manufacture physical interaction by moving the real person.
+
+[Expression]
+{expression}
+Map expression separately from pose. Do not impose a generic smile or infer hostility from a neutral face.
+
+[Character Proportion]
+{proportion}
+Face grammar: {face}. Simplify hands and feet while retaining readable gestures, grip and shoe type. Keep a friendly illustrated adult styling, not a photorealistic face or a baby transformation.
+
+[Line Art]
+{line_art}
+Use readable dark hand-drawn outlines with controlled natural irregularity, not mechanically perfect vector geometry or forced scribbling. Keep one consistent line grammar.
+
+[Color]
+{color}
+Use roughly four to eight core garment/hair/accessory color blocks, plus visible skin tone, line color and only essential accents. Keep the illustration intentionally flat, simple and hand-drawn. No complex gradients, realistic fabric or 3D lighting. Do not color-grade the original photograph.
+
+[Placement]
+{placement}
+Scale basis: {scale_basis}. {scale_description}
+Keep the real face, identifying clothing, important scenery and existing text readable. Do not use an automatic bottom-left placement.
+
+[Grounding]
+{grounding}
+Make contact with an actual visible ground or seat. A walking pose may lift one foot if the other is grounded; sitting feet may dangle if the pelvis is supported. Do not invent new furniture or support surfaces.
+
+[Perspective]
+{perspective}
+Align the contact plane and shoe/seat orientation with photographic space while keeping the character's rendering flat.
+
+[Occlusion]
+{occlusion}
+Use only scene-consistent partial overlaps. Preserve foreground objects when they must occlude the character. Do not erase furniture to display the illustration.
+
+[Shadow]
+{shadow}
+Preserve existing photographic shadows. No complex realistic cast shadow, dramatic ambient occlusion, rim light or sticker drop shadow.
+
+[Photo / Illustration Contrast]
+Maintain a strong visual contrast between photographic reality and flat illustration. The photo retains continuous tones and real texture; the character retains flat color and expressive lines. Share identity and space, not material rendering.
+
+[Style Consistency]
+{style_consistency}
+Scene preset: {preset}. Apply a repeatable drawing grammar without reusing a fixed character face or overriding the person's styling.
+
+[Anti-AI Constraints]
+No redrawn human, beautification, body alteration, modified clothing, regenerated background, whole-photo cartoon filter, anime, 3D, glossy plastic, detailed digital painting, white sticker border or floating character. Additional constraints: {constraints}.
+
+[Negative Prompt]
+{negative_prompt}

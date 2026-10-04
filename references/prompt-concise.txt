@@ -1,0 +1,39 @@
+[Task / Photograph Protection]
+Insert ONE small hand-drawn alter ego into the supplied ORIGINAL photograph. Do not redraw or regenerate the original person. Preserve the original photograph almost entirely unchanged, including real face, hair, body, clothes, pose, background, text and lighting. Change only the insertion area and optional tiny local contact mark. No reframing or whole-photo regeneration. Source: {photo}. Protected person: {person}.
+
+[Priority 1 / Size and Safe Zone]
+{size_control}
+Relative scale: {scale_description}
+Location intent: {placement}
+Keep the real face, outfit, identifying objects and important background readable. Do not make the cartoon human-sized to fit accessories or costume details.
+
+[Priority 2 / Identity Compression]
+L1 keep: {level1}. L2 useful: {level2}. Omit: {level3}. Unknown: {unknowns}; never invent them.
+Hair: {hair}
+Outfit: {outfit}
+Accessories: {accessories}
+Each garment is its main silhouette, a dominant color block and one to three identifying marks. Retain the hairstyle, garment volume, main colors and key props; discard tiny text, fabric texture, seam grids, highlights and micro-folds in the cartoon only.
+
+[Priority 3 / Pose and Expression]
+Mode: {pose_mode}. {pose}
+Expression: {expression}
+Do not move or reshape the real person to create interaction.
+
+[Priority 4 / Flat Drawing Grammar]
+Construction: {proportion}
+Face: {face}
+Line: {line_art}
+Color: {color}
+Keep cartoon surfaces flat and graphic. Use a few deliberate ink lines, not tonal shading, to suggest a fold. No clothing gradients, shiny hair, 3D volumes or ornate anime eyes. Optional white-eye/cheek treatment follows the chosen simple face grammar; do not add it merely for polish. Photo retains natural texture; illustration remains deliberately simple.
+Consistency: {style_consistency}
+
+[Priority 5 / Actual Support and Depth]
+Support: {grounding}
+Perspective: {perspective}
+Occlusion: {occlusion}
+Shadow: {shadow}
+No floating feet, invented furniture, white sticker border, heavy drop shadow or realistic character cast shadow. Scene preset: {preset}.
+
+[Avoid]
+{constraints}
+{negative_prompt}

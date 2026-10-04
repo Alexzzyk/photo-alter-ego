@@ -1,0 +1,57 @@
+{
+  "photo": "A hypothetical daylight street-fashion photograph, one adult standing on a stone sidewalk, modern building behind, usable ground on the left",
+  "person": "The single main person in the center-right; retain the original face, long dark-brown wavy hair, sunglasses, garments, body, hands and held drink",
+  "hair": "Long dark-brown wavy hair below the shoulders, a green baseball cap, large black sunglasses worn on the face; use a wavy outer hair silhouette and three curl lines",
+  "outfit": "Black short-sleeve T-shirt as one black torso block; loose blue cargo jeans with two large pocket shapes; red patterned scarf tied at the waist as a red triangular knot with a few cream marks; blue sneakers with simple warm-colored soles. Preserve garment lengths and the wide leg silhouette",
+  "accessories": "Small black crossbody bag with readable strap, a simple silver necklace, an orange iced drink with a straw held in the same hand as in the photo. Omit tiny brand lettering",
+  "level1": [
+    "long dark-brown waves and green baseball cap",
+    "black sunglasses on the face",
+    "black T-shirt and wide blue cargo jeans",
+    "red scarf tied at waist"
+  ],
+  "level2": [
+    "black crossbody bag",
+    "silver necklace",
+    "orange drink and straw",
+    "blue sneakers"
+  ],
+  "level3": [
+    "cap lettering",
+    "denim grain",
+    "tiny scarf pattern",
+    "sewing lines",
+    "minor folds"
+  ],
+  "unknowns": [
+    "exact cap lettering and hidden clothing construction"
+  ],
+  "pose_mode": "Complementary",
+  "pose": "Keep the drink raised near the chest and the free hand casually in a trouser pocket. Use a relaxed slightly forward staggered stance, rather than copying every real leg angle. The nearer sneaker is planted and the other heel is lightly lifted",
+  "expression": "A calm small nearly flat mouth, slight head tilt, relaxed cool attitude; sunglasses cover the eyes. Do not add anger or a broad grin",
+  "proportion": "Approximately 3.5 heads tall in a standing pose, moderately enlarged asymmetric oval head, compact torso, wide trouser silhouette and slightly enlarged sneakers",
+  "face": "Tiny curved nose and minimal mouth, no realistic facial bone structure, no visible eyes beneath sunglasses; skin block based on the person's visible skin tone",
+  "line_art": "Round Ink: dark charcoal outlines, outer contour slightly stronger than internal details, confident curved strokes with occasional gentle irregularity",
+  "color": "Use dark brown hair, green cap, black top and bag, muted blue jeans and shoes, red scarf, orange drink, plus source-based skin and dark lines. Flatten photographic highlights; retain the defining colors",
+  "placement": "Place the character to the left of the real person, in the open sidewalk area, leaving a small breathing gap and keeping face, cargo pockets, scarf and drink visible. The right side is rejected because it has less usable ground",
+  "support_visible": true,
+  "scale": {
+    "basis": "standing_relative",
+    "ratio": 0.7,
+    "explanation": "Character feet occupy approximately the same sidewalk depth as the real feet; adjust minimally to avoid blocking the outfit"
+  },
+  "grounding": "Plant the nearer sneaker on the visible sidewalk tile; keep the other forefoot in contact if its heel is lifted. Do not place the feet on the building wall",
+  "perspective": "Match the sidewalk tile direction and local plane at the real person's feet; keep the full illustrated body flat, not 3D",
+  "occlusion": "Mostly side by side, no overlap with real face or identifying outfit. Do not erase any background object",
+  "shadow": "Only a faint small contact darkening directly beneath the planted sole if needed; no long human-shaped cast shadow",
+  "style_consistency": "One simplified hand-drawn adult alter ego; consistent Round Ink contour, limited palette and minimal expression throughout",
+  "preset": "Street Fashion",
+  "constraints": "No new text, border, watermark, duplicated drinks, copied reference face, changed clothing color or new environment",
+  "composition": {
+    "subject_top": 0.2,
+    "subject_bottom": 0.94,
+    "character_bottom": 0.94,
+    "character_center_x": 0.2,
+    "character_width": 0.24
+  }
+}

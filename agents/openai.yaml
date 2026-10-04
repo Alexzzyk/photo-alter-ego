@@ -1,0 +1,4 @@
+interface:
+  display_name: "真人 × 手绘分身"
+  short_description: "读取真人发型穿搭与姿态，设计二维手绘分身并自然融入原始摄影空间"
+  default_prompt: "使用 $photo-alter-ego 分析我上传的真人照片，保留原照片并加入一个与本人穿搭、发型和气质对应的二维手绘分身。"

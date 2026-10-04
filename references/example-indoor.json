@@ -1,0 +1,53 @@
+{
+  "photo": "A hypothetical indoor lifestyle photo of one adult seated in a cafe, with a clearly visible empty armchair to the right at a similar depth; existing table and furnishings remain unchanged",
+  "person": "The main seated person on the left, short black bob, pale-blue striped shirt, light shorts, white socks and shoes, holding a tablet while making a V sign with a pen",
+  "hair": "Short black bob with a small fringe; retain rounded outer silhouette and a few fringe strokes. No headwear or eyewear is visible",
+  "outfit": "Pale-blue loose striped shirt with rolled cuffs and only a few dark vertical stripes, light cream shorts as a simple block, white socks and white low shoes. Omit fabric grain and tiny folds",
+  "accessories": "A dark teal tablet in one hand; the other hand holds a simple white pen while giving the V sign. Use the original hand assignment. No bag is visible; do not invent one",
+  "level1": [
+    "short black bob and fringe",
+    "pale-blue rolled-sleeve striped shirt",
+    "tablet and pen with V sign"
+  ],
+  "level2": [
+    "cream shorts",
+    "white socks and low shoes"
+  ],
+  "level3": [
+    "shirt sewing lines",
+    "tablet reflections",
+    "tiny jewelry details",
+    "minor folds"
+  ],
+  "unknowns": [
+    "tablet branding and any hidden jewelry"
+  ],
+  "pose_mode": "Mirror",
+  "pose": "Sit in the existing empty chair on the right. Echo the real person's V sign and tablet-holding action, while simplifying joint angles and leg placement. Keep both props clearly held, not floating. Do not move the real person",
+  "expression": "A mild closed-mouth smile and a slight head tilt corresponding to the relaxed real expression",
+  "proportion": "Design the body from an approximately 3.5-head standing construction, then bend it naturally into a seated posture; do not derive head-body proportion from the compressed seated bounding box",
+  "face": "Simple oval head, small eyes with minimal white, tiny nose curve and short smile, optional tiny low-contrast cheeks; skin color based on the original person",
+  "line_art": "Loose Pen: dark-brown slightly variable thin outlines, a few short fringe and cuff marks, clean enough to read without mechanically uniform vector paths",
+  "color": "Core blocks of black hair, pale-blue shirt, cream shorts, teal tablet and white socks/shoes, plus visible skin and dark line color. Preserve a flat drawing surface under the room's original photographic lighting",
+  "placement": "Use the existing empty chair to the right; keep the real person, tablet and table readable. Reject the left floor zone because it would obstruct the real shoes",
+  "support_visible": true,
+  "scale": {
+    "basis": "seated_relative",
+    "ratio": 0.75,
+    "explanation": "Size according to the visible existing seat height and depth; the percentage is a secondary seated bounding-height target, not a standing mini-me ratio"
+  },
+  "grounding": "Place the pelvis on the existing chair cushion. Thighs follow the seat plane. Lower legs may hang slightly; do not lengthen legs solely to force feet onto the floor. Pelvis-seat contact is the primary support",
+  "perspective": "Match the real chair's seat plane and armrest depth; the character's torso remains a flat three-quarter drawing",
+  "occlusion": "Existing front armrest is in front of the relevant thigh or sleeve; chair back stays behind the character. Preserve original chair dimensions and never erase the armrest",
+  "shadow": "No realistic cast shadow; only an extremely faint local seat-contact darkening if needed. Preserve all original room shadows",
+  "style_consistency": "One Loose Pen character with consistent simple face, thin hand-drawn lines and flat restrained color, distinct from all photographic furniture",
+  "preset": "Indoor Lifestyle",
+  "constraints": "No invented chair, no changed furniture, no duplicated tablet, no photorealistic character, no modified human pose or face",
+  "composition": {
+    "subject_top": 0.15,
+    "subject_bottom": 0.86,
+    "character_bottom": 0.88,
+    "character_center_x": 0.76,
+    "character_width": 0.26
+  }
+}
